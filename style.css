@@ -11,7 +11,8 @@ body {
 
 /* ==========Navigation Section Style========= */
 nav {
-  background-color: hsl(218, 28%, 13%);
+  /* background-color: hsl(218, 28%, 13%); */
+  background-color: hsl(217, 28%, 15%);
 }
 
 nav .nav-main {
@@ -51,14 +52,17 @@ nav .nav-main .menus .link a {
 
 /* ==========Hero Section Style========= */
 .hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url(images/bg-curvy-desktop.svg);
   background-repeat: no-repeat;
   background-position-y: bottom;
-  background-color: hsl(218, 25%, 15%)
+  background-color: hsl(217, 28%, 15%);
 }
 
 .hero-section .hero-image {
-  margin: auto;
   max-width: 520px;
 }
 
@@ -70,7 +74,7 @@ nav .nav-main .menus .link a {
 
 .hero-section .heading1-text {
   max-width: 520px;
-  margin: 40px auto 0 auto;
+  margin: 40px 0 0 0;
 }
 
 .hero-section .heading1-text h1{
@@ -79,12 +83,12 @@ nav .nav-main .menus .link a {
   color: hsl(0, 0%, 100%);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 30px;
 }
 
 .hero-section .paragraph-text {
   max-width: 450px;
-  margin: 40px auto 0 auto;
+  margin: 40px 0 0 0;
 }
 
 .hero-section .paragraph-text p {
@@ -121,6 +125,7 @@ nav .nav-main .menus .link a {
 .features-section .container-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, max(430px));
+  justify-content: center;
   grid-gap: 45px;
   max-width: 910px;
   margin: auto;
@@ -153,4 +158,201 @@ nav .nav-main .menus .link a {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
-/* ==========Features Section Style End========= */
+/* ==========Features Style End========= */
+
+/* ==========Stay Productive Style========= */
+.stay-productive {
+  margin-top: 100px;
+}
+
+.stay-productive .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 1020px;
+  margin: auto;
+}
+
+.stay-productive .row .col1 {
+  width: 50%;
+  
+}
+
+.stay-productive .row .col1 img {
+  width: 100%;
+  height: 400px;
+}
+
+.stay-productive .row .col2 {
+  width: 45%;
+}
+
+.stay-productive .row .col2 .heading2 h2 {
+  width: 100%;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.stay-productive .row .col2 .paragraph p {
+  width: 100%;
+  margin-top: 10px;
+  color: hsl(0, 0%, 76%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.stay-productive .row .col2 .how-fylo-work {
+  max-width: 150px;
+  margin-top: 10px;
+}
+
+.stay-productive .row .col2 .how-fylo-work a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: hsl(198, 60%, 50%);
+  border-bottom: 1px solid hsl(198, 60%, 50%);
+  padding-bottom: 4px;
+}
+/* ==========Stay Productive Section Style End========= */
+
+/* ==========Team Section Style End========= */
+.team-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 150px 0 280px 0;
+}
+
+.team-section .qoute {
+  position: absolute;
+  top: 100px;
+  left: 170px;
+  height: 50px;
+}
+
+.team-section .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1020px;
+}
+
+.team-section .card-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 320px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: hsl(219, 30%, 18%);
+}
+
+.team-section .card-container .card .paragraph p {
+  color: hsl(0, 0%, 76%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.team-section .card-container .card .profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.team-section .card-container .card .profile img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.team-section .card-container .card .profile .profile-info .name {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.team-section .card-container .card .profile .profile-info .position {
+  color: hsl(0, 0%, 76%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+/* ==========Team Section Style End========= */
+
+/* ==========Contact Section Style========= */
+.contact-section {
+  padding-top: 200px;
+  background-color: hsl(216, 53%, 9%);
+  position: relative;
+}
+
+.contact-section .contact-container {
+  max-width: 600px;
+  margin: 100px auto 0 auto;
+  padding: 30px;
+  background-color: hsl(217, 28%, 15%);
+  border-radius: 10px;
+  position: absolute;
+  top: -200px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.contact-section .contact-container h2 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+.contact-section .contact-container p {
+  color: hsl(0, 0%, 76%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.contact-section .contact-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.contact-section .contact-container form input[type='email'] {
+  width: 60%;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.contact-section .contact-container form input[type='submit'] {
+  width: 30%;
+  border: none;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 14px;
+  background-color: hsl(198, 60%, 50%);
+  color: hsl(0, 0%, 100%);
+}
+/* ==========Team Section Style End========= */
