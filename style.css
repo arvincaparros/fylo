@@ -1,0 +1,156 @@
+/* Reset margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(218, 28%, 13%);
+}
+
+/* ==========Navigation Section Style========= */
+nav {
+  background-color: hsl(218, 28%, 13%);
+}
+
+nav .nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  max-width: 1020px;
+  margin: auto;
+}
+
+nav .nav-main .logo  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .nav-main .logo img {
+  width: 130px;
+}
+
+
+nav .nav-main .menus {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+nav .nav-main .menus .link a {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+}
+
+/* ==========Navigation Section Style End========= */
+
+/* ==========Hero Section Style========= */
+.hero-section {
+  background-image: url(images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-color: hsl(218, 25%, 15%)
+}
+
+.hero-section .hero-image {
+  margin: auto;
+  max-width: 520px;
+}
+
+.hero-section .hero-image img {
+  margin-top: 60px;
+  height: 420px;
+  width: 100%;
+}
+
+.hero-section .heading1-text {
+  max-width: 520px;
+  margin: 40px auto 0 auto;
+}
+
+.hero-section .heading1-text h1{
+  width: 100%;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.hero-section .paragraph-text {
+  max-width: 450px;
+  margin: 40px auto 0 auto;
+}
+
+.hero-section .paragraph-text p {
+  width: 100%;
+  text-align: center;
+  color: hsl(0, 0%, 76%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.hero-section .get-started-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section .get-started-button a {
+  margin: 30px 0;
+  padding: 10px 50px;
+  border-radius: 20px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(198, 60%, 50%);
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+/* ==========Hero Section Style End========= */
+
+/* ==========Features Section Style========= */
+.features-section {
+  margin-top: 100px;
+}
+.features-section .container-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, max(430px));
+  grid-gap: 45px;
+  max-width: 910px;
+  margin: auto;
+}
+
+.features-section .container-grid .grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+}
+
+.features-section .container-grid .grid .icon {
+  margin: 15px 0 0 0;
+}
+
+.features-section .container-grid .grid .heading3 {
+  margin: 15px 0 0 0;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.features-section .container-grid .grid .paragraph {
+  margin: 15px 0 0 0;
+  text-align: center;
+  color: hsl(0, 0%, 76%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+/* ==========Features Section Style End========= */
