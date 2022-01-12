@@ -176,8 +176,8 @@ nav .nav-main .menus .link a {
 }
 
 .stay-productive .row .col1 {
-  width: 50%;
-  
+  width: 485px;
+  padding: 0 25px;
 }
 
 .stay-productive .row .col1 img {
@@ -186,7 +186,8 @@ nav .nav-main .menus .link a {
 }
 
 .stay-productive .row .col2 {
-  width: 45%;
+  width: 425px;
+  padding: 0 25px;
 }
 
 .stay-productive .row .col2 .heading2 h2 {
@@ -194,7 +195,7 @@ nav .nav-main .menus .link a {
   color: hsl(0, 0%, 100%);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 30px;
   line-height: 38px;
 }
 
@@ -331,6 +332,7 @@ nav .nav-main .menus .link a {
 
 .contact-section .contact-container form {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -356,3 +358,15 @@ nav .nav-main .menus .link a {
   color: hsl(0, 0%, 100%);
 }
 /* ==========Team Section Style End========= */
+
+
+
+
+
+
+/* Media Query */
+
+/* Mobile Style */
+@media screen and (max-width: 375px) {
+  
+}
