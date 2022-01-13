@@ -371,7 +371,7 @@ nav .nav-main .menus .link a {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  margin-top: 20px;
+  padding: 20px;
 }
 
 .contact-section .contact-info .contact-grid .location {
@@ -474,6 +474,13 @@ nav .nav-main .menus .link a {
 }
 /* ==========Team Section Style End========= */
 
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
 
 
 
