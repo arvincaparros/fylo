@@ -177,7 +177,7 @@ nav .nav-main .menus .link a {
 
 .stay-productive .row .col1 {
   width: 485px;
-  padding: 0 25px;
+  padding: 0 15px;
 }
 
 .stay-productive .row .col1 img {
@@ -187,7 +187,7 @@ nav .nav-main .menus .link a {
 
 .stay-productive .row .col2 {
   width: 425px;
-  padding: 0 25px;
+  padding: 0 15px;
 }
 
 .stay-productive .row .col2 .heading2 h2 {
@@ -226,20 +226,19 @@ nav .nav-main .menus .link a {
 /* ==========Stay Productive Section Style End========= */
 
 /* ==========Team Section Style End========= */
+.qoute {
+  max-width: 1020px;
+  margin: 150px auto 0 auto;
+  height: 50px;
+}
+
 .team-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 150px 0 280px 0;
-}
-
-.team-section .qoute {
-  position: absolute;
-  top: 100px;
-  left: 170px;
-  height: 50px;
+  padding: 0 0 280px 0;
 }
 
 .team-section .card-container {
@@ -302,8 +301,8 @@ nav .nav-main .menus .link a {
   position: relative;
 }
 
-.contact-section .contact-container {
-  max-width: 600px;
+.contact-section .contact-card {
+  max-width: 800px;
   margin: 100px auto 0 auto;
   padding: 30px;
   background-color: hsl(217, 28%, 15%);
@@ -314,7 +313,7 @@ nav .nav-main .menus .link a {
   transform: translate(-50%);
 }
 
-.contact-section .contact-container h2 {
+.contact-section .contact-card h2 {
   color: hsl(0, 0%, 100%);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -322,7 +321,7 @@ nav .nav-main .menus .link a {
   text-align: center;
 }
 
-.contact-section .contact-container p {
+.contact-section .contact-card p {
   color: hsl(0, 0%, 76%);
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -330,7 +329,7 @@ nav .nav-main .menus .link a {
   margin-top: 15px;
 }
 
-.contact-section .contact-container form {
+.contact-section .contact-card form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -340,7 +339,7 @@ nav .nav-main .menus .link a {
   margin-top: 25px;
 }
 
-.contact-section .contact-container form input[type='email'] {
+.contact-section .contact-card form input[type='email'] {
   width: 60%;
   border: none;
   border-radius: 20px;
@@ -348,7 +347,7 @@ nav .nav-main .menus .link a {
   font-size: 14px;
 }
 
-.contact-section .contact-container form input[type='submit'] {
+.contact-section .contact-card form input[type='submit'] {
   width: 30%;
   border: none;
   border-radius: 20px;
@@ -356,6 +355,122 @@ nav .nav-main .menus .link a {
   font-size: 14px;
   background-color: hsl(198, 60%, 50%);
   color: hsl(0, 0%, 100%);
+}
+
+.contact-section .contact-info {
+  max-width: 1020px;
+  margin: auto;
+}
+
+.contact-section .contact-info .logo img {
+  width: 130px;
+}
+
+.contact-section .contact-info .contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contact-section .contact-info .contact-grid .location {
+  display: flex;
+  width: 220px;
+}
+
+.contact-section .contact-info .contact-grid .location img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.contact-section .contact-info .contact-grid .location p {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contact-section .contact-info .contact-grid .contact-details ul {
+  list-style: none;
+}
+
+.contact-section .contact-info .contact-grid .contact-details ul li {
+  display: flex;
+  align-items: center;
+  padding: 3px 0;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contact-section .contact-info .contact-grid .contact-details ul li img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.contact-section .contact-info .contact-grid .about-us h5 {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.contact-section .contact-info .contact-grid .about-us ul {
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contact-section .contact-info .contact-grid .about-us ul li a {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+.contact-section .contact-info .contact-grid .contact-us h5 {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.contact-section .contact-info .contact-grid .contact-us ul {
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contact-section .contact-info .contact-grid .contact-us ul li a {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+.contact-section .contact-info .contact-grid .social-media ul {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+}
+
+.contact-section .contact-info .contact-grid .social-media ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.contact-section .contact-info .contact-grid .social-media ul li a i {
+  padding: 6px 5px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
 }
 /* ==========Team Section Style End========= */
 
