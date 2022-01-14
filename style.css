@@ -321,7 +321,7 @@ nav .nav-main .menus .link a {
   top: -200px;
   left: 50%;
   transform: translate(-50%);
-  box-shadow: 8px 5px 8px hsla(214, 30%, 9%, 0.589);
+  box-shadow: 5px 5px 5px hsla(214, 30%, 9%, 0.589);
 }
 
 .contact-section .contact-card h2 {
@@ -486,18 +486,15 @@ nav .nav-main .menus .link a {
 /* ==========Team Section Style End========= */
 
 .attribution { 
-  font-size: 11px; text-align: center;
+  font-size: 14px; 
+  text-align: center;
   padding: 15px 20px;
-  color: hsl(0, 0%, 100%); 
-}
-
-.attribution p { 
-  color: hsl(0, 0%, 100%); 
-  font-size: 14px;
+  color: hsl(0, 0%, 68%); 
   font-family: 'Open Sans', sans-serif;
 }
 
-.attribution p a { 
+.attribution a {
+  text-decoration: none;
   color: hsl(0, 0%, 100%); 
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
@@ -575,7 +572,7 @@ nav .nav-main .menus .link a {
   /* Feature Style */
   .features-section .container-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, max(422px));
+    grid-template-columns: repeat(auto-fill, max(420px));
     justify-content: center;
     grid-gap: 45px;
     max-width: 910px;
@@ -621,7 +618,7 @@ nav .nav-main .menus .link a {
   }
   
   .contact-section .contact-card {
-    width: 330px;
+    width: 327px;
     margin: 100px auto 0 auto;
     padding: 20px;
     position: absolute;
