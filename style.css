@@ -109,7 +109,7 @@ nav .nav-main .menus .link a {
 
 .hero-section .get-started-button a {
   margin: 30px 0;
-  padding: 15px 50px;
+  padding: 12px 50px;
   border-radius: 25px;
   color: hsl(0, 0%, 100%);
   background-color: hsl(198, 60%, 50%);
@@ -123,6 +123,7 @@ nav .nav-main .menus .link a {
 /* ==========Features Section Style========= */
 .features-section {
   margin-top: 100px;
+  padding: 0 20px;
 }
 
 .features-section .container-grid {
@@ -346,7 +347,7 @@ nav .nav-main .menus .link a {
   width: 60%;
   border: none;
   border-radius: 20px;
-  padding: 8px 15px;
+  padding: 12px 15px;
   font-size: 14px;
 }
 
@@ -354,7 +355,7 @@ nav .nav-main .menus .link a {
   width: 30%;
   border: none;
   border-radius: 20px;
-  padding: 8px;
+  padding: 12px 8px;
   font-size: 14px;
   background-color: hsl(198, 60%, 50%);
   color: hsl(0, 0%, 100%);
@@ -584,7 +585,7 @@ nav .nav-main .menus .link a {
   }
 
   .team-section {
-    padding: 0 0 250px 0;
+    padding: 0 20px 250px 20px;
   }
   
   .team-section .card-container {
@@ -602,7 +603,7 @@ nav .nav-main .menus .link a {
   }
   
   .contact-section .contact-card {
-    width: 345px;
+    width: 340px;
     margin: 100px auto 0 auto;
     padding: 20px;
     position: absolute;
