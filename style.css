@@ -5,13 +5,19 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: hsl(218, 28%, 13%);
 }
 
 /* ==========Navigation Section Style========= */
 nav {
-  /* background-color: hsl(218, 28%, 13%); */
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
   background-color: hsl(217, 28%, 15%);
 }
 
@@ -522,6 +528,10 @@ nav .nav-main .menus .link a {
   /* Hero section style*/
   .hero-section {
     padding: 0 20px;
+    background-image: url(images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
   }
 
   .hero-section .hero-image {
@@ -563,7 +573,13 @@ nav .nav-main .menus .link a {
   
   /* Feature Style */
   .features-section .container-grid {
-    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, max(422px));
+    justify-content: center;
+    grid-gap: 45px;
+    max-width: 910px;
+    margin: auto;
+    padding: 0 20px;
   }
 
   /* Stay Productive */
@@ -592,9 +608,9 @@ nav .nav-main .menus .link a {
   .team-section .card-container {
     gap: 20px;
   }
-  
+
   .team-section .card-container .card {
-    width: 335px;
+    width: 330px;
     padding: 20px;
   }
 
@@ -604,7 +620,7 @@ nav .nav-main .menus .link a {
   }
   
   .contact-section .contact-card {
-    width: 335px;
+    width: 330px;
     margin: 100px auto 0 auto;
     padding: 20px;
     position: absolute;
