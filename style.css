@@ -45,6 +45,7 @@ nav .nav-main .menus .link a {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
+  letter-spacing: 1px;
   color: hsl(0, 0%, 100%);
 }
 
@@ -77,13 +78,14 @@ nav .nav-main .menus .link a {
   margin: 40px 0 0 0;
 }
 
-.hero-section .heading1-text h1{
+.hero-section .heading1-text h1 {
   width: 100%;
   text-align: center;
   color: hsl(0, 0%, 100%);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 30px;
+  line-height: 38px;
 }
 
 .hero-section .paragraph-text {
@@ -107,8 +109,8 @@ nav .nav-main .menus .link a {
 
 .hero-section .get-started-button a {
   margin: 30px 0;
-  padding: 10px 50px;
-  border-radius: 20px;
+  padding: 15px 50px;
+  border-radius: 25px;
   color: hsl(0, 0%, 100%);
   background-color: hsl(198, 60%, 50%);
   text-align: center;
@@ -122,6 +124,7 @@ nav .nav-main .menus .link a {
 .features-section {
   margin-top: 100px;
 }
+
 .features-section .container-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, max(430px));
@@ -228,7 +231,7 @@ nav .nav-main .menus .link a {
 /* ==========Team Section Style End========= */
 .qoute {
   max-width: 1020px;
-  margin: 150px auto 0 auto;
+  margin: 100px auto 0 auto;
   height: 50px;
 }
 
@@ -238,7 +241,7 @@ nav .nav-main .menus .link a {
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 0 0 280px 0;
+  padding: 0 0 240px 0;
 }
 
 .team-section .card-container {
@@ -371,7 +374,7 @@ nav .nav-main .menus .link a {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .contact-section .contact-info .contact-grid .location {
@@ -475,11 +478,21 @@ nav .nav-main .menus .link a {
 /* ==========Team Section Style End========= */
 
 .attribution { 
-  font-size: 11px; text-align: center; 
+  font-size: 11px; text-align: center;
+  padding: 15px 20px;
+  color: hsl(0, 0%, 100%); 
 }
 
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
+.attribution p { 
+  color: hsl(0, 0%, 100%); 
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.attribution p a { 
+  color: hsl(0, 0%, 100%); 
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -490,5 +503,165 @@ nav .nav-main .menus .link a {
 
 /* Mobile Style */
 @media screen and (max-width: 375px) {
+  /* Navigation style*/
+  nav .nav-main {
+    padding: 20px 20px;
+  }
+
+  nav .nav-main .logo img {
+    width: 110px;
+  }
+
+  nav .nav-main .menus {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+
+  /* Hero section style*/
+  .hero-section .hero-image {
+    max-width: 520px;
+    padding: 0 20px;
+  }
+  
+  .hero-section .hero-image img {
+    margin-top: 60px;
+    height: 400px;
+    width: 100%;
+  }
+
+  .hero-section .heading1-text {
+    max-width: 520px;
+    padding: 0 20px;
+    margin: 35px 0 0 0;
+  }
+  
+  .hero-section .heading1-text h1 {
+    width: 100%;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  
+  .hero-section .paragraph-text {
+    max-width: 450px;
+    padding: 0 20px;
+    margin: 30px 0 0 0;
+  }
+  
+  .hero-section .paragraph-text p {
+    width: 100%;
+    text-align: center;
+    color: hsl(0, 0%, 76%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Feature Style */
+  .features-section .container-grid {
+    padding: 0 20px;
+  }
+
+  /* Stay Productive */
+  .stay-productive .row {
+    padding: 0 5px;
+  }
+  
+  .stay-productive .row .col1 img {
+    width: 100%;
+    height: 370px;
+  }
+  
+  .stay-productive .row .col2 .heading2 h2 {
+    font-size: 28px;
+  }
+
+  /* Team Style */
+  .qoute img {
+    padding: 0 20px;
+  }
+
+  .team-section {
+    padding: 0 0 250px 0;
+  }
+  
+  .team-section .card-container {
+    gap: 20px;
+  }
+  
+  .team-section .card-container .card {
+    width: 340px;
+    padding: 20px;
+  }
+
+  /* Contact Style */
+  .contact-section {
+    padding: 0 20px;
+  }
+  
+  .contact-section .contact-card {
+    width: 345px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: -230px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .contact-section .contact-card h2 {
+    font-size: 24px;
+  }
+  
+  .contact-section .contact-card form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  .contact-section .contact-card form input[type='email'] {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+  
+  .contact-section .contact-card form input[type='submit'] {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  .contact-section .contact-info {
+    max-width: 1020px;
+    margin: auto;
+    padding-top: 240px;
+  }
+  
+  .contact-section .contact-info .logo img {
+    width: 140px;
+  }
+  
+  .contact-section .contact-info .contact-grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    padding: 30px 0;
+  }
+  
+  .contact-section .contact-info .contact-grid .social-media ul {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    list-style: none;
+  }
   
 }
