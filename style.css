@@ -40,7 +40,6 @@ nav .nav-main .logo img {
   width: 130px;
 }
 
-
 nav .nav-main .menus {
   display: flex;
   gap: 25px;
@@ -158,6 +157,7 @@ nav .nav-main .menus .link a {
   margin: 15px 0 0 0;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   text-align: center;
   color: hsl(0, 0%, 100%);
 }
@@ -325,7 +325,7 @@ nav .nav-main .menus .link a {
   box-shadow: 5px 5px 5px hsla(214, 30%, 9%, 0.589);
 }
 
-.contact-section .contact-card h2 {
+.contact-section .contact-card .heading {
   color: hsl(0, 0%, 100%);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -422,7 +422,7 @@ nav .nav-main .menus .link a {
   margin-right: 10px;
 }
 
-.contact-section .contact-info .contact-grid .about-us h5 {
+.contact-section .contact-info .contact-grid .about-us p {
   font-size: 15px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
@@ -441,7 +441,7 @@ nav .nav-main .menus .link a {
   text-decoration: none;
 }
 
-.contact-section .contact-info .contact-grid .contact-us h5 {
+.contact-section .contact-info .contact-grid .contact-us p {
   font-size: 15px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
