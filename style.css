@@ -123,6 +123,12 @@ nav .nav-main .menus .link a {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.hero-section .get-started-button:hover a {
+  background-color: hsl(176, 68%, 64%);
+  transition: 0.5s;
 }
 /* ==========Hero Section Style End========= */
 
@@ -383,8 +389,14 @@ nav .nav-main .menus .link a {
   border-radius: 20px;
   padding: 12px 8px;
   font-size: 14px;
+  letter-spacing: 1px;
   background-color: hsl(198, 60%, 50%);
   color: hsl(0, 0%, 100%);
+}
+
+.contact-section .contact-card form input[type='submit']:hover {
+  background-color: hsl(176, 68%, 64%);
+  transition: 0.5s;
 }
 
 .contact-section .contact-info {
@@ -518,8 +530,6 @@ nav .nav-main .menus .link a {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 }
-
-
 
 
 
