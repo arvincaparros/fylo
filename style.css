@@ -545,7 +545,6 @@ nav .nav-main .menus .link a {
   }
 
   /* Team Style */
-
   .qoute img {
     padding: 0 70px;
   }
@@ -560,7 +559,7 @@ nav .nav-main .menus .link a {
   }
   
   .contact-section .contact-card {
-    width: 500px;
+    width: 80%;
     margin: 120px auto 0 auto;
     padding: 20px;
     position: absolute;
@@ -575,7 +574,7 @@ nav .nav-main .menus .link a {
   
   .contact-section .contact-card form {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
