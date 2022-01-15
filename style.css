@@ -351,6 +351,24 @@ nav .nav-main .menus .link a {
   margin-top: 25px;
 }
 
+.error {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+  padding: 8px 10px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 100%, 63%);
+}
+
+.success {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+  padding: 8px 10px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(150, 92%, 58%);
+}
+
 .contact-section .contact-card form input[type='email'] {
   width: 60%;
   border: none;
@@ -505,7 +523,83 @@ nav .nav-main .menus .link a {
 
 
 
-/* Media Query */
+/* ========================Media Query=============================== */
+
+/* Table Style */
+@media screen and (max-width: 815px) {
+  /* Navigation style */
+  nav .nav-main {
+    padding: 20px 30px;
+  }
+
+  /* Team Style */
+
+  .qoute img {
+    padding: 0 70px;
+  }
+
+  .team-section {
+    padding: 0 20px 280px 20px;
+  }
+
+  /* Contact Style */
+  .contact-section {
+    padding: 0 30px;
+  }
+  
+  .contact-section .contact-card {
+    width: 500px;
+    margin: 120px auto 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: -270px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .contact-section .contact-card h2 {
+    font-size: 24px;
+  }
+  
+  .contact-section .contact-card form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  .contact-section .contact-card form input[type='email'] {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+  
+  .contact-section .contact-card form input[type='submit'] {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  .contact-section .contact-info {
+    max-width: 1020px;
+    margin: auto;
+    padding-top: 220px;
+  }
+  
+  
+  .contact-section .contact-info .contact-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    padding: 30px 0;
+  }
+  
+}
 
 /* Mobile Style */
 @media screen and (max-width: 375px) {
@@ -601,7 +695,7 @@ nav .nav-main .menus .link a {
   }
 
   .team-section {
-    padding: 0 20px 250px 20px;
+    padding: 0 30px 250px 30px;
   }
   
   .team-section .card-container {
