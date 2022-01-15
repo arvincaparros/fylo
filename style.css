@@ -359,20 +359,22 @@ nav .nav-main .menus .link a {
 
 .error {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 20px;
   padding: 8px 10px;
   color: hsl(0, 0%, 100%);
   background-color: hsl(0, 100%, 63%);
+  border-radius: 4px;
 }
 
 .success {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 20px;
   padding: 8px 10px;
   color: hsl(0, 0%, 100%);
   background-color: hsl(150, 92%, 58%);
+  border-radius: 4px;
 }
 
 .contact-section .contact-card form input[type='email'] {
